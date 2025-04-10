@@ -229,3 +229,5 @@ def div_it(divident, divisor):
         bool: True if the dividend is divisible by the divisor, False otherwise.
     """
     return divident % divisor == 0
+def tell_it():
+  print("Git Integration is working pucca")
