@@ -1,9 +1,9 @@
 # rvd_ap/__init__.py
 
-from .rvd_ap import some_function, SomeClass
+from .rvd_ap import some_function, SomeClass, tell_it
 
 # Define the public API for the package
-__all__ = ['some_function', 'SomeClass']
+__all__ = ['some_function', 'SomeClass', 'tell_it']
 
 # Meta information about the package
 __version__ = '0.1.0'
